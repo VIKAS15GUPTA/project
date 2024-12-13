@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            display: inline-block;
+        }
+        .buy-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .car-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <h2>Awesome Car</h2>
+        <img src="C:\Users\Vikas Gupta\Downloads\TOYOTA CAMRY.jpg"alt="Car Image" class="car-image">
+        <p>Price: $1,80,0000</p>
+        <p>This car is equipped with the latest features and technologies to ensure a smooth and enjoyable ride.</p>
+        <button class="buy-button" onclick="buyProduct()">Buy Now</button>
+    </div>
+
+    <script>
+        function buyProduct() {
+            alert('Thank you for your purchase!');
+        }
+    </script>
+</body>
+</html>
